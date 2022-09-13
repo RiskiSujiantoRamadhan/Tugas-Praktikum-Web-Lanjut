@@ -19,16 +19,8 @@
       <li class="nav-item">
         <a class="nav-link" href="/about">About</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="/mahasiswa" role="button" data-toggle="dropdown" aria-expanded="false">
-          Mahasiswa
-        </a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+      <li class="nav-item">
+        <a class="nav-link" href="/mahasiswa">Mahasiswa</a>
       </li>
       <li class="nav-item">
         <a class="nav-link disabled">Disabled</a>
@@ -41,5 +33,6 @@
   </div>
 </nav>
 
-    <h1><?= esc($title) ?></h1>
+    <h1 class="mt-3 ml-4"><?= esc($title) ?></h1>
+    <div class="p-4">
     
