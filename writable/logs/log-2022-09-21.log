@@ -233,3 +233,11 @@ in APPPATH\Controllers\MahasiswaController.php on line 63.
  4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 05:35:48 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\praktikumweblanjut\app\Controllers\MahasiswaController.php on line 71
+in SYSTEMPATH\Common.php on line 1128.
+ 1 APPPATH\Controllers\MahasiswaController.php(71): view('mahasiswa/edit', null)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
