@@ -26,13 +26,13 @@ class CreateMahasiswaTable extends Migration
             'alamat' => [
                 'type' => 'TEXT',
             ],
-            'created at' => [
+            'created_at' => [
                 'type' => 'DATETIME',
-                'null' => 'true',
+                'null' => true,
             ],
-            'updated at' => [
+            'updated_at' => [
                 'type' => 'DATETIME',
-                'null' => 'true',
+                'null' => true,
             ],
         ]);
         $this->forge->addKey('id', true);

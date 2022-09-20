@@ -1,0 +1,235 @@
+CRITICAL - 2022-09-21 03:31:32 --> Undefined array key "created_at"
+in APPPATH\Views\mahasiswa\list.php on line 19.
+ 1 APPPATH\Views\mahasiswa\list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'APPPATH\\Views\\mahasiswa\\list.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mahasiswa\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mahasiswa/list', [], true)
+ 5 APPPATH\Controllers\MahasiswaController.php(18): view('mahasiswa/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 03:32:36 --> Undefined array key "created_at"
+in APPPATH\Views\mahasiswa\list.php on line 19.
+ 1 APPPATH\Views\mahasiswa\list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'APPPATH\\Views\\mahasiswa\\list.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mahasiswa\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mahasiswa/list', [], true)
+ 5 APPPATH\Controllers\MahasiswaController.php(18): view('mahasiswa/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 03:32:44 --> Undefined array key "created_at"
+in APPPATH\Views\mahasiswa\list.php on line 19.
+ 1 APPPATH\Views\mahasiswa\list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'APPPATH\\Views\\mahasiswa\\list.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mahasiswa\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mahasiswa/list', [], true)
+ 5 APPPATH\Controllers\MahasiswaController.php(18): view('mahasiswa/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 03:32:48 --> Undefined array key "created_at"
+in APPPATH\Views\mahasiswa\list.php on line 19.
+ 1 APPPATH\Views\mahasiswa\list.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'APPPATH\\Views\\mahasiswa\\list.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mahasiswa\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('mahasiswa/list', [], true)
+ 5 APPPATH\Controllers\MahasiswaController.php(18): view('mahasiswa/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-09-21 03:34:35 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\xampp\htdocs\praktikumweblanjut\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\praktikumweblanjut\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\praktikumweblanjut\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\praktikumweblanjut\vendor\codeigniter4\framework\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\praktikumweblanjut\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\praktikumweblanjut\vendor\codeigniter4\framework\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\praktikumweblanjut\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\praktikumweblanjut\vendor\codeigniter4\framework\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\praktikumweblanjut\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\praktikumweblanjut\app\Controllers\MahasiswaController.php(37): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\praktikumweblanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(904): App\Controllers\MahasiswaController->store()
+#10 C:\xampp\htdocs\praktikumweblanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+#11 C:\xampp\htdocs\praktikumweblanjut\vendor\codeigniter4\framework\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\praktikumweblanjut\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\praktikumweblanjut\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-09-21 04:43:07 --> Too few arguments to function App\Controllers\MahasiswaController::delete(), 0 passed in C:\xampp\htdocs\praktikumweblanjut\vendor\codeigniter4\framework\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\MahasiswaController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 04:44:33 --> Too few arguments to function App\Controllers\MahasiswaController::delete(), 0 passed in C:\xampp\htdocs\praktikumweblanjut\vendor\codeigniter4\framework\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\MahasiswaController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 04:45:04 --> Too few arguments to function App\Controllers\MahasiswaController::delete(), 0 passed in C:\xampp\htdocs\praktikumweblanjut\vendor\codeigniter4\framework\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\MahasiswaController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 04:53:52 --> Too few arguments to function App\Controllers\MahasiswaController::delete(), 0 passed in C:\xampp\htdocs\praktikumweblanjut\vendor\codeigniter4\framework\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\MahasiswaController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 05:03:25 --> Too few arguments to function App\Controllers\MahasiswaController::delete(), 0 passed in C:\xampp\htdocs\praktikumweblanjut\vendor\codeigniter4\framework\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\MahasiswaController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 05:03:42 --> Too few arguments to function App\Controllers\MahasiswaController::delete(), 0 passed in C:\xampp\htdocs\praktikumweblanjut\vendor\codeigniter4\framework\system\CodeIgniter.php on line 904 and exactly 1 expected
+in APPPATH\Controllers\MahasiswaController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 05:09:36 --> Undefined variable $mahasiswa
+in APPPATH\Controllers\MahasiswaController.php on line 56.
+ 1 APPPATH\Controllers\MahasiswaController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'APPPATH\\Controllers\\MahasiswaController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->edit('6')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 05:10:25 --> Undefined variable $mahasiswa
+in APPPATH\Controllers\MahasiswaController.php on line 56.
+ 1 APPPATH\Controllers\MahasiswaController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'APPPATH\\Controllers\\MahasiswaController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->edit('5')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 05:10:29 --> Undefined variable $mahasiswa
+in APPPATH\Controllers\MahasiswaController.php on line 56.
+ 1 APPPATH\Controllers\MahasiswaController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'APPPATH\\Controllers\\MahasiswaController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->edit('4')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 05:14:46 --> Undefined variable $mahasiswa
+in APPPATH\Controllers\MahasiswaController.php on line 56.
+ 1 APPPATH\Controllers\MahasiswaController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'APPPATH\\Controllers\\MahasiswaController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->edit('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 05:14:51 --> Undefined variable $mahasiswa
+in APPPATH\Controllers\MahasiswaController.php on line 56.
+ 1 APPPATH\Controllers\MahasiswaController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'APPPATH\\Controllers\\MahasiswaController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->edit('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 05:14:53 --> Undefined variable $mahasiswa
+in APPPATH\Controllers\MahasiswaController.php on line 56.
+ 1 APPPATH\Controllers\MahasiswaController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'APPPATH\\Controllers\\MahasiswaController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->edit('3')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 05:19:00 --> Undefined variable $mahasiswa
+in APPPATH\Controllers\MahasiswaController.php on line 56.
+ 1 APPPATH\Controllers\MahasiswaController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'APPPATH\\Controllers\\MahasiswaController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->edit('3')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 05:21:40 --> Undefined variable $mahasiswa
+in APPPATH\Controllers\MahasiswaController.php on line 56.
+ 1 APPPATH\Controllers\MahasiswaController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'APPPATH\\Controllers\\MahasiswaController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 05:21:43 --> Undefined variable $mahasiswa
+in APPPATH\Controllers\MahasiswaController.php on line 56.
+ 1 APPPATH\Controllers\MahasiswaController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'APPPATH\\Controllers\\MahasiswaController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 05:21:45 --> Undefined variable $mahasiswa
+in APPPATH\Controllers\MahasiswaController.php on line 56.
+ 1 APPPATH\Controllers\MahasiswaController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'APPPATH\\Controllers\\MahasiswaController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->edit('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 05:26:48 --> Undefined variable $mahasiswa
+in APPPATH\Controllers\MahasiswaController.php on line 63.
+ 1 APPPATH\Controllers\MahasiswaController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'APPPATH\\Controllers\\MahasiswaController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->edit('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 05:26:49 --> Undefined variable $mahasiswa
+in APPPATH\Controllers\MahasiswaController.php on line 63.
+ 1 APPPATH\Controllers\MahasiswaController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'APPPATH\\Controllers\\MahasiswaController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->edit('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 05:26:49 --> Undefined variable $mahasiswa
+in APPPATH\Controllers\MahasiswaController.php on line 63.
+ 1 APPPATH\Controllers\MahasiswaController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'APPPATH\\Controllers\\MahasiswaController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->edit('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 05:26:49 --> Undefined variable $mahasiswa
+in APPPATH\Controllers\MahasiswaController.php on line 63.
+ 1 APPPATH\Controllers\MahasiswaController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'APPPATH\\Controllers\\MahasiswaController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->edit('2')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 05:26:52 --> Undefined variable $mahasiswa
+in APPPATH\Controllers\MahasiswaController.php on line 63.
+ 1 APPPATH\Controllers\MahasiswaController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'APPPATH\\Controllers\\MahasiswaController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-21 05:26:55 --> Undefined variable $mahasiswa
+in APPPATH\Controllers\MahasiswaController.php on line 63.
+ 1 APPPATH\Controllers\MahasiswaController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'APPPATH\\Controllers\\MahasiswaController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\MahasiswaController->edit('3')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MahasiswaController))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
